@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts_webui_extension.parakeet"
+version = "0.0.1"
+authors = [{name = "mefi"}]
+description = "Parakeet TTS extension for tts-webui"
+readme = "README.md"
+license = {text = "BSD-3"}
+urls = {Homepage = "https://github.com/mefich/tts_webui_extension.parakeet"}
+dependencies = [
+    "onnx-asr[gpu,hub]",
+]
