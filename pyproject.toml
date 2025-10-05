@@ -12,4 +12,5 @@ license = {text = "BSD-3"}
 urls = {Homepage = "https://github.com/mefich/tts_webui_extension.parakeet"}
 dependencies = [
     "onnx-asr[gpu,hub]",
+    "onnxruntime-gpu"
 ]
